@@ -4,18 +4,13 @@ class Solution {
       
         
         for( int i = 0; i < nums.length; i++ ){
-            if( s.contains( nums[i] ) ){
-          
-                return true;
-                
-            }else{
+         
                 s.add( nums[i] );
-            }
-        }
         
+        }
     
         
-        return  false ;
+        return  nums.length>s.size() ;
     
     
     }
