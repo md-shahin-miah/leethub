@@ -9,7 +9,8 @@ class Solution {
 
                     for (int j = i; j < nums.length; j++) {
   
-                        int num=(nums[i] - nums[j])<0?(nums[i] - nums[j])*(-1):(nums[i] - nums[j]);
+                      int lift=nums[i] - nums[j];
+                        int num=lift<0?lift*(-1):lift;
                         if (num == k) {
 
                             res++;
