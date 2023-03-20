@@ -7,7 +7,7 @@ class Solution {
 
                 if (i <= nums.length - 2) {
 
-                    for (int j = i; j < nums.length; j++) {
+                    for (int j = i+1; j < nums.length; j++) {
   
                       int lift=nums[i] - nums[j];
                         int num=lift<0?lift*(-1):lift;
