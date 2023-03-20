@@ -8,11 +8,11 @@ class Solution {
                 if (i <= nums.length - 2) {
 
                     for (int j = i; j < nums.length; j++) {
-
-                        if ((Math.abs(nums[i] - nums[j])) == k) {
+  
+                        int num=(nums[i] - nums[j])<0?(nums[i] - nums[j])*(-1):(nums[i] - nums[j]);
+                        if (num == k) {
 
                             res++;
-                            
 
                         }
 
