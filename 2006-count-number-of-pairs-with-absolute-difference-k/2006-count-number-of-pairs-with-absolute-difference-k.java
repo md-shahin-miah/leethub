@@ -5,7 +5,7 @@ class Solution {
      
             for (int i = 0; i < nums.length; i++) {
 
-                if (i <= nums.length - 2) {
+                // if (i <= nums.length - 2) {
 
                     for (int j = i; j < nums.length; j++) {
 
@@ -18,7 +18,7 @@ class Solution {
 
                     }
 
-                }
+                // }
 
             }
         
