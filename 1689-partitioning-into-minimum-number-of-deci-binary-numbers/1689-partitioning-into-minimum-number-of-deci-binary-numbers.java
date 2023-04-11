@@ -4,8 +4,10 @@ class Solution {
 
         for (int i = 0; i < n.length(); i++) {
 
-            if (temp<n.charAt(i)-'0'){
-                temp=n.charAt(i)-'0';
+             int num=n.charAt(i)-'0';
+            
+            if (temp<num){
+                temp=num;
             }
         }
 
