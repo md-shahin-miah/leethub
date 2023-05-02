@@ -19,7 +19,9 @@ class Solution {
             }
         }
         if (!isAddedFirst){
-          return  new int[]{-1,-1};
+            res[0]=-1;
+            res[1]=-1;
+          return  res;
         }
         
         return  res; 
