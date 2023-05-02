@@ -2,7 +2,7 @@ class Solution {
     public int[] searchRange(int[] nums, int target) {
          int[] res = new int[2];
 
-        Arrays.sort(nums);
+       // Arrays.sort(nums);
 
         boolean isAddedFirst = false;
 
