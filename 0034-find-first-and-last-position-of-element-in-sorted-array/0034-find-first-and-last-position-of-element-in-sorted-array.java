@@ -5,7 +5,6 @@ class Solution {
         Arrays.sort(nums);
 
         boolean isAddedFirst = false;
-        boolean isTargetFound = false;
 
         for (int i = 0; i < nums.length; i++) {
 
@@ -14,21 +13,15 @@ class Solution {
                     res[0] = i;
                        res[1] = i;
                     isAddedFirst = true;
-                    isTargetFound=true;
                 } else {
-                    
                     res[1] = i;
                 }
             }
-
-
         }
-
-        if (!isTargetFound){
+        if (!isAddedFirst){
           return  new int[]{-1,-1};
         }
         
-
         return  res; 
     }
 }
