@@ -1,8 +1,7 @@
 class Solution {
     public String reverseWords(String s) {
-        StringBuilder ss=new StringBuilder();
-        
-      
+    StringBuilder ss=new StringBuilder();
+    
         String[] splited =s.trim().split("\\s+");
 
           if(splited.length<2){
